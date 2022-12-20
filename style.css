@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Lato&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7c5e99;
+    padding: 10px 20px;
+    border-bottom: 10px solid black;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+nav{
+    text-align: right;
+}
+
+a::before{
+        content: "";
+        background-color: #62C370;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-right: 30px; /* Joga os elementos da direita 30px para o lado */
+}
+
+#button{
+    display: inline-block;
+    background-color: #62C370;
+    box-shadow: 5px 5px 0 black;
+    padding: 18px 20px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: black;
+    box-shadow: 5px 5px 0 #62C370;
+}
