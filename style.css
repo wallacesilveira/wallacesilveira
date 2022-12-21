@@ -1,17 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #7c5e99;
+    align-items: center;
+    background-color: #7C5E99;
     padding: 10px 20px;
     border-bottom: 10px solid black;
 }
+
+/*
+    h1{
+    font-family: "Press Start 2P", sans-serif;
+    color: #fef339;
+    text-shadow: 5px 5px 0 #ee1170;
+}
+*/
 
 header img {
     height: 60px;
     width: 60px;
 }
+
+
 
 nav{
     text-align: right;
@@ -43,9 +54,10 @@ a{
     padding: 18px 20px;
     margin-right: 0;
     cursor: pointer;
+    color: white;
+    transition: transform 150ms linear;
 }
 
 #button:hover{
-    background-color: black;
-    box-shadow: 5px 5px 0 #62C370;
+    transform: scale(1.05);
 }
