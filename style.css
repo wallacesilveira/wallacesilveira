@@ -62,19 +62,31 @@ a{
     transform: scale(1.05);
 }
 
+#container-main{
+    width: 100wh;
+    height: 100vh;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01073865290819.5d61d475f0072.jpg);
+    background-size: 100%;
+}
+
 #cardFrontEnd{
     background-color: #3A4042;
     width: 681px;
     height: 198px;
     box-shadow: 10px 10px 0 black;
     font-family: "Press Start 2P", sans-serif;
+    text-align: center;
 }
 
-#name{
+#title{
     color: #62C370;
+    text-shadow: 10px 10px 0 black;
+    font-size: 40px;
 }
 
 #subtitle{
     color: white;
     text-shadow: 10px 10px 0 black;
+    font-size: 30px;
 }
+
