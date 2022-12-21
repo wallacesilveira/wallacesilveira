@@ -47,7 +47,7 @@ a{
     margin-right: 30px; /* Joga os elementos da direita 30px para o lado */
 }
 
-#button{
+.button{
     display: inline-block;
     background-color: #62C370;
     box-shadow: 5px 5px 0 black;
@@ -58,6 +58,23 @@ a{
     transition: transform 150ms linear;
 }
 
-#button:hover{
+.button:hover{
     transform: scale(1.05);
+}
+
+#cardFrontEnd{
+    background-color: #3A4042;
+    width: 681px;
+    height: 198px;
+    box-shadow: 10px 10px 0 black;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+#name{
+    color: #62C370;
+}
+
+#subtitle{
+    color: white;
+    text-shadow: 10px 10px 0 black;
 }
