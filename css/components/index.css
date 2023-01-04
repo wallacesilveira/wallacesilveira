@@ -72,15 +72,6 @@ a{
     border-bottom: 10px solid black;
 }
 
-#cardFrontEnd{
-    background-color: #3A4042;
-    width: 681px;
-    height: 198px;
-    box-shadow: 10px 10px 0 black;
-    font-family: "Press Start 2P", sans-serif;
-    text-align: center;
-}
-
 #container-skills{
     display: flex;
     background-color: #7C5E99;
