@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    height: 100vh;
+    background-image: url(../../assets/img/background.jpg);
+    background-size: 100%;
+    border-bottom: 10px solid black;
+    background-repeat:no-repeat;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+    margin-top: 115px;
+    margin-left: 90px;
+}
+
+.banner .buttonSpace{
+    display: flex;
+    width: 627px;;
+    justify-content: space-around;
+    margin-left: 90px;
+}

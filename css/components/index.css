@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
 
-.container-main{
-    height: 100vh;
-    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01073865290819.5d61d475f0072.jpg);
-    background-size: 100%;
-    border-bottom: 10px solid black;
-}
 
 .container-skills{
     display: flex;
