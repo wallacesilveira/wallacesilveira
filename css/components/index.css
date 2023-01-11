@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
 
-
-.container-skills{
-    display: flex;
-    background-color: #7C5E99;
-    height: 100vh;
-    font-family: "Press Start 2P", sans-serif;
-    color: white;
-    justify-content: center;
-    padding: 50px;
-    font-size: 20px;
-    border-bottom: 10px solid #62C370;
-}
-
 .container-projetos{
     display: flex;
     height: 300px;
@@ -23,3 +10,4 @@
     padding: 50px;
     border-bottom: 10px solid #62C370;
 }
+
