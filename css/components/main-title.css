@@ -10,3 +10,8 @@
 color: white;
 text-shadow: none;
 }
+
+.main-title.-third{
+    color: white;
+    display: block;
+}

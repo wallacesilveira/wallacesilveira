@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap');
+
+.card-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C5E99;
+    height: 280px;
+    width: 280px;
+    box-shadow: 10px 10px 0px white;
+}
+
+.card-project.-blue {
+    background-color: #4C5B84;    
+}
