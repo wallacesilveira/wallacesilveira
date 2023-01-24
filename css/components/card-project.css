@@ -8,8 +8,14 @@
     height: 280px;
     width: 280px;
     box-shadow: 10px 10px 0px white;
+    margin: 56px;
 }
 
 .card-project.-blue {
     background-color: #4C5B84;    
 }
+
+.card-project.-avatar{
+    background-color: #62C370;    
+}
+

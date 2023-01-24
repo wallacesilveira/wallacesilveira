@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     display: flex;
     height: 100vh;
     background-image: url(../../assets/img/background.jpg);
@@ -7,13 +7,13 @@
     background-repeat:no-repeat;
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 40px;
     margin-top: 100px;
     margin-left: 90px;
 }
 
-.banner .buttonSpace{
+.main-banner .buttonSpace{
     display: flex;
     width: 627px;;
     justify-content: space-around;
