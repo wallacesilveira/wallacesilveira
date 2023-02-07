@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 
 </head>
 
@@ -201,7 +202,7 @@
                         </figcaption>
 
                         <div class="logo">
-                            <img src="assets/img/logo-locaweb.png" alt="Logo da Locaweb">
+                            <img src="assets/img/logo-locaweb.png" alt="Logo da Intersul Imóveis">
                         </div>
                     </figure>
 
@@ -211,7 +212,7 @@
                         </figcaption>
 
                         <div class="logo -clean">
-                            <img src="assets/img/logo-caelum (1).png" alt="Logo da Caelum">
+                            <img src="assets/img/logo-caelum (1).png" alt="Logo do Senac">
                         </div>
                     </figure>
 
@@ -225,15 +226,13 @@
                         </div>
                     </figure>
 
-                    <!--2 cards extras abaixo-->
-
                     <figure class="node-card">
                         <figcaption class="title">
                             2011
                         </figcaption>
 
                         <div class="logo">
-                            <img src="assets/img/logo-locaweb.png" alt="Logo da Locaweb">
+                            <img src="assets/img/logo-intersul.png" alt="Logo da Locaweb">
                         </div>
                     </figure>
 
@@ -264,25 +263,25 @@
 
     </section>
 
-    <section class="main-section -bgGrey">
+    <section class="main-section -bgGrey -bdBlack">
         <h2 class="main-title -second">Contatos</h2>
 
-        <form>
+        <form class="main-form">
 
             <label class="main-label" for="name">
                 Nome
             </label>
-            <input type="text" class="main-input" id="name">
+            <input type="text" class="main-input" id="name" required>
     
             <label class="main-label" for="email">
                 Email
             </label>
-            <input type="email" class="main-input" id="email">
+            <input type="email" class="main-input" id="email" required>
     
             <label class="main-label" for="message">
                 Mensagem
             </label>
-            <textarea name="message" class="main-input -textArea" id="message"> </textarea>
+            <textarea name="message" class="main-input -textArea" id="message" required> </textarea>
 
             <button type="submit" class="main-button -full">
                 Enviar

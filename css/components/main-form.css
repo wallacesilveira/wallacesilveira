@@ -1,0 +1,13 @@
+.main-form{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textArea {
+    margin-bottom: 40px;
+}
+
