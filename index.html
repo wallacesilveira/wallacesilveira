@@ -266,22 +266,25 @@
     <section class="main-section -bgGrey -bdBlack">
         <h2 class="main-title -second">Contatos</h2>
 
-        <form class="main-form">
+        <form class="main-form" action="https://api.staticforms.xyz/submit" method="post">
+
+            <input type="hidden" name="accessKey" value="a43c7d34-ae17-4968-9774-d5f316004861">
+            <input type="hidden" name="redirectTo" value="https://wallacesilveira.github.io/wallacesilveira">
 
             <label class="main-label" for="name">
                 Nome
             </label>
-            <input type="text" class="main-input" id="name" required>
+            <input type="text" class="main-input" id="inputName" required name="name">
     
             <label class="main-label" for="email">
                 Email
             </label>
-            <input type="email" class="main-input" id="email" required>
+            <input type="email" class="main-input" id="inputEmail" required name="email">
     
             <label class="main-label" for="message">
                 Mensagem
             </label>
-            <textarea name="message" class="main-input -textArea" id="message" required> </textarea>
+            <textarea name="message" class="main-input -textArea" id="inputMessage" required name="message"> </textarea>
 
             <button type="submit" class="main-button -full">
                 Enviar
