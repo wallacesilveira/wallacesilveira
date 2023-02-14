@@ -16,10 +16,7 @@
 
 .main-section.-bgBlack{
     background-color: black;
-}
-
-.main-section.-bdFirst{
-    border-color: #F25A70;
+    height: 600px;
 }
 
 .main-section.-bdBlack{
@@ -28,4 +25,5 @@
 
 .main-section.-bgGrey {
     background-color: #3A4042;
+    height: 780px;
 }
