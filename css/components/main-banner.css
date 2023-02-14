@@ -5,6 +5,7 @@
     background-size: 100%;
     border-bottom: 10px solid black;
     background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 .main-banner .main-box {
