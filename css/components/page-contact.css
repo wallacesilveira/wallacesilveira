@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+
