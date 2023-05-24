@@ -15,7 +15,7 @@
     background-color: #4C5B84;    
 }
 
-.card-project.-avatar{
-    background-color: #62C370;    
+.card-project img:hover{
+    transform: scale(1.05);
 }
 
