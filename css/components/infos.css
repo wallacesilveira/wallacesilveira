@@ -8,15 +8,17 @@
     text-align: center;
 }
 
-.infos-contact p, a {
+.infos-contact p {
     font-family: "Press Start 2P";
     padding-top: 15px;
     text-decoration: none;
     color: black;
 }
 
-.links a {
+.infos-contact a {
     text-decoration: none;
+    font-family: "Press Start 2P";
+    color: black;   
 }
 
 .links-social {
