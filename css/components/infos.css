@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap');
+
+.infos-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.infos-contact p {
+    font-family: "Press Start 2P";
+    padding-top: 15px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links-social {
+    padding: 50px;
+}
+
+.main-button a {
+    text-decoration: none;
+    font-family: "Press Start 2P";
+}
